@@ -1,0 +1,15 @@
+import pyautogui as py
+
+py.hotkey('ctrl', 'shift', "'")
+py.write('git init')
+py.press('enter')
+py.write('git add .')
+py.press('enter')
+py.write('git commit -m "automacao_git"')
+py.press('enter')
+py.write('git branch -M main')
+py.press('enter')
+py.write('git remote add origin https://github.com/jaouiq/automacao_git.git')
+py.press('enter')
+py.write('git push -u origin main')
+py.press('enter')
